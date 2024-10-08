@@ -8,6 +8,7 @@ authors = ["Aleksandr Orlenko <zxteam@pm.me>"]
 name = "script_bench"
 
 [features]
+default=["rquickjs"]
 boa = ["boa_engine", "boa_gc", "boa_runtime"]
 mlua_lua54 = ["mlua/lua54", "mlua/vendored"]
 mlua_luau = ["mlua/luau-jit"]
